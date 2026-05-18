@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -7,14 +6,7 @@ const Navbar = () => {
     <div className="border-b px-2 bg-[#1B1B1B] text-white">
       <nav className=" flex justify-between items-center container mx-auto py-5">
         <div className="flex gap-2 ">
-          {/* <Image
-            src={"/logo.png"}
-            alt="logo"
-            loading="eager"
-            width={120}
-            height={100}
-            className="object-cover h-auto w-auto"
-          /> */}
+          
           <Link href={"/"}>
            <img src="/logo.png" alt="" className="w-30" />
           </Link>
