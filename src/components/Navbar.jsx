@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link href={"/"} className="">Home</Link>
           </li>
           <li className=" hover:bg-linear-to-r from-[#ff8a77] via-[#fdde4b] to-[#13a0e5] py-2 px-5 hover:text-black rounded-full">
-            <Link href={"/all-photos"}>All Tiles</Link>
+            <Link href={"/all-tiles"}>All Tiles</Link>
           </li>
           <li className=" hover:bg-linear-to-r from-[#ff8a77] via-[#fdde4b] to-[#13a0e5] py-2 px-5 hover:text-black rounded-full">
             <Link href={"/profile"}>My Profile</Link>
