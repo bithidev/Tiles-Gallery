@@ -3,11 +3,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="relative  bg-mauve-950">
-      <div className="h-px w-full " />
-
-      <div className="absolute inset-0 -z-10 bg-white dark:bg-[#0a0a0b]" />
-
-      <div className="max-w-7xl mx-auto px-6 py-18">
+    
+      <div className="max-w-7xl mx-auto px-6 py-20">
        
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
          
@@ -39,8 +36,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/pricing">
+                <Link href="/pricing">
                   Pricing
                 </Link>
               </li>
@@ -90,7 +86,7 @@ const Footer = () => {
 
         <div className="mt-12 h-px w-full bg-linear-to-r from-transparent via-gray-300 to-transparent dark:via-white/10" />
 
-        <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-md text-gray-400 dark:text-gray-400 ">
+        <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400 dark:text-gray-400 ">
           <p>© {new Date().getFullYear()} TileGallery. All rights reserved.</p>
 
           <div className="flex items-center gap-6">
